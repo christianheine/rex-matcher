@@ -1,0 +1,27 @@
+{
+  "name": "rex-matcher",
+  "version": "0.1.0",
+  "description": "Enhanced regular expressions",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "Christian Heine",
+  "license": "MIT",
+  "repository": "git@github.com:christianheine/rex-matcher.git",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.46.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
